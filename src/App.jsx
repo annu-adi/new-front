@@ -10,7 +10,7 @@ function App() {
 
   const handleSubmit = (e) =>{
     e.preventDefault();
-    axios.post('http://localhost:3001/register', {name, email, password})
+    axios.post('https://vercel.com/rashmis-projects-3cacc26c/new-back/register', {name, email, password})
     .then(result => console.log(result))
     .catch(err => console.log(err))
   }
